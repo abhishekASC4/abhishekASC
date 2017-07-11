@@ -17,3 +17,4 @@ if(rosterSize >= 5){
 } else{
     console.log("You Can't Play! Not enough Pokemon")
 };
+console.log("test command");
