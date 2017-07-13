@@ -13,17 +13,18 @@ function randWord(){
     return word;
 };
 var sentence = "";
-function capitalizeFirst(string){
-    string = string.charAt(0).toUpperCase()
-    return string
-}
+
 function randSentence(){
     var sentenceLength = Math.ceil(Math.random()*10 + 1)
     for(i=0;i < sentenceLength; i++){
         sentence = sentence + " " + randWord();
     };
     sentence = sentence + ".";
-    finalSentence = capitalizeFirst(sentence);
-    return finalSentence
+    return sentence
 }
-console.log(randSentence());
+function capitalizeFirst(string){
+    newFirst = string.charAt(0)
+    finalSentence = newFirst + string.splice(1);
+    return newFirst;
+}
+console.log(capitalizeFirst(randSentence()));
