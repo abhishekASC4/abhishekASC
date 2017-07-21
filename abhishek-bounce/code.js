@@ -34,6 +34,12 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         xPaddle += 10
     }
+    if(y>620){
+        fill(255)
+        textSize(64)
+        text("Game Over", 150, 150)
+        noLoop()
+    }
     fill(255)
     ellipse(x,y,20,20)
     rect(xPaddle,yPaddle,100,3)
