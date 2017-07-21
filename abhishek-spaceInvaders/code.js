@@ -108,7 +108,7 @@ var projectile = {
     showProjectile: false
 }
 function keyPressed(){
-    if(keyCode === UP_ARROW){
+    if(keyCode === UP_ARROW || keyCode === 32){
         if(projectile.showProjectile=== false){
             projectile.x = ship.x2
         }
