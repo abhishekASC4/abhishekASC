@@ -1,0 +1,97 @@
+body{
+    align-content: center;
+}
+img{
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.row1{
+    padding-left: 33%;
+}
+.row2{
+    padding-left: 33%;
+}
+.arcana{
+    display: inline-block;
+    padding-top: 10px;  
+    margin: 0 auto;
+    padding: 1%;
+    opacity: .50;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-overflow: ellipsis;
+    color: white; 
+    background: url(assets/arcana.jpg) no-repeat; 
+    text-align: center;
+    background-size: cover;
+    height: 15%;
+    width: 12%;
+}
+.dreamland{
+    display: inline-block;
+    margin: 0 auto;
+    opacity: .5;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-overflow: ellipsis;
+    color: white; 
+    background: url(assets/KirbyDreamLand.jpg) no-repeat; 
+    text-align: center;
+    background-size: cover;
+    height: 15%;
+    width: 12%;  
+}
+.adventure{
+    display: inline-block;
+    margin: 0 auto;
+    opacity: .5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-overflow: ellipsis;
+    color: white; 
+    background: url(assets/KirbyAdventure.png) no-repeat; 
+    text-align: center;
+    background-size: cover;
+    height: 15%;
+    width: 12%;  
+}
+.smash{
+    display: inline-block;
+    padding-top: 10px;  
+    margin: 0 auto;
+    padding: 1%;
+    opacity: .50;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-overflow: ellipsis;
+    color: white; 
+    background: url(assets/Smash64.jpg) no-repeat; 
+    text-align: center;
+    background-size: cover;
+    height: 15%;
+    width: 12%;
+}
+.melee{
+    display: inline-block;
+    padding-top: 10px;  
+    margin: 0 auto;
+    padding: 1%;
+    opacity: .50;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-overflow: ellipsis;
+    color: white; 
+    background: url(assets/melee.png) no-repeat; 
+    text-align: center;
+    background-size: cover;
+    width: 25%;
+    height: 10%;
+}
+.sm4sh{
+    display: inline-block;
+    padding-top: 10px;  
+    margin: 0 auto;
+    padding: 1%;
+    opacity: .50;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-overflow: ellipsis;
+    color: white; 
+    background: url(assets/Smash4.png) no-repeat; 
+    text-align: center;
+    background-size: cover;
+}
