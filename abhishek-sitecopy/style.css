@@ -1,0 +1,67 @@
+.navbar-nav{
+    font-size: 10px;
+    margin: 0 0 0 0;
+}
+.underline:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}
+.navbar-default{
+    background: white;
+    height: 5px;
+    margin: 0;
+    border:0px;
+    margin-top: -5px;
+}
+.download{
+    margin-top: 5px;
+    background: #7fc857;
+    border: 1px solid #7fc857;
+    color: white;
+    width: 150px;
+}
+.download:hover{
+    background: forestgreen;
+    color: white;
+}
+.sandbox{
+    margin-top: 5px;
+    background: white;
+    border: 1px solid #7fc857;
+    color: #7fc857;
+    width:150px;
+}
+.sandbox:hover{
+    background: white;
+    color: forestgreen;
+}
+.jumbotron{
+    margin-top: -50px;
+    height: 500px;
+    color: white;
+    background: #1b2128;
+    text-align: center;
+}
+.leadtext{
+    margin-top: 120px;
+    font-size: 5px;
+    border: 2px solid #1b2128;
+}
+.my-4{
+    font-size: 20px;
+}
+.getstarted{
+    background: #7fc857;
+    border: 1px solid #7fc857;
+}
+.login{
+    background: white;
+    color: #7fc857;
+    border: 1px solid white;
+}
+.lead{
+    margin-top: 90px;
+}
+.navbar2{
+    background: #333;
+}
