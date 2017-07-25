@@ -2,16 +2,11 @@
     font-size: 10px;
     margin: 0 0 0 0;
 }
-.underline:hover{
-    text-decoration: underline;
-    color: lightgreen;
-}
 .navbar-default{
     background: white;
     height: 5px;
     margin: 0;
     border:0px;
-    margin-top: -5px;
 }
 .download{
     margin-top: 5px;
@@ -36,7 +31,6 @@
     color: forestgreen;
 }
 .jumbotron{
-    margin-top: -50px;
     height: 500px;
     color: white;
     background: #1b2128;
@@ -63,5 +57,18 @@
     margin-top: 90px;
 }
 .navbar2{
+    margin-top: -50px;
+    height: 100px;
     background: #333;
+}
+.underline2{
+    margin-top: 50px;
+    color: white;
+}
+.underline:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}
+.login:hover{
+    width: 100px;
 }
