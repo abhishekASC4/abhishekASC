@@ -1,0 +1,50 @@
+
+body{
+    background: black;
+
+    height: 100vh;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+ .container-fluid{
+    background: url("assets/evilforest.jpg");
+    background-size: cover;
+    height: 50vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 50px;
+} 
+.jumbotron{
+    background: url("assets/galaxy_720.jpg") no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    padding-top: 20vh;
+    margin-bottom: 0px;
+}
+.navbar{
+    height: 1vh;
+    border-radius: 0;
+    background: black;
+    margin-bottom: 0px;
+}
+.video{
+    margin-top: -17vh;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.form-group{
+    text-align: center;
+    color: grey;
+}
