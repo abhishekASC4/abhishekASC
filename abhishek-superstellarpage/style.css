@@ -43,6 +43,7 @@ h2{
 }
 .img-fluid{
     max-width: 100%;
+    max-height: 100%;
 }
 .form-group{
     text-align: center;

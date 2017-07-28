@@ -1,0 +1,77 @@
+*{
+    font-family:'Oswald';
+}
+.name{
+    height: 10vh;
+}
+.hov{
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+.profile{
+    border-radius: 5px;
+}
+.row{
+    text-align: center;
+}
+.col-md-3{
+    margin-top: 100px;
+}
+.col-md-6{
+    text-align: center;
+}
+.thumbnail{
+    position: relative;
+    background: black;
+    border: 0;
+    width: 40%;
+    margin-left: 30%;
+    height: 20%;
+}
+.overlay{
+    background: rgba(0,0,0,.8);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+.settext{
+    padding-top: 20%;
+}
+.thumbnail:hover .overlay{
+    color: white;
+    opacity: 1;
+    transition: .3s ease;
+}
+.overlay1{
+    background: rgba(255,255,255,.8);
+    position: absolute;
+    top: 1vh;
+    height:100%;
+    left: 4.3vh;
+    width: 85%;
+    opacity: 0;
+}
+.pong:hover .overlay1{
+    color:black;
+    opacity: 1;
+    transition: .3s ease;
+}
+.overlay2{
+    background: rgba(255,255,255,.8);
+    position: absolute;
+    top: 1vh;
+    height:100%;
+    left: 4.3vh;
+    width: 32vh;
+    opacity: 0;
+}
+.battle:hover .overlay2{
+    color:black;
+    opacity: 1;
+    transition: .3s ease;
+}
