@@ -1,0 +1,5 @@
+Google Maps API key testing maps-
+AIzaSyCjNE04VVeA755LTD0UDtONPkeTp7JZM4c
+*super insecure*
+
+https://maps.googleapis.com/maps/api/staticmap?center=40.7425550,-74.0060840&zoom=18&size=600x300&maptype=roadmap&markers=icon:http://cdn.minecraft-mp.com/images/favicon/72682.png?ts=1496729768|40.7425550,-74.0060840&key=AIzaSyCjNE04VVeA755LTD0UDtONPkeTp7JZM4c
