@@ -28,6 +28,7 @@ $('document').ready(function(){
     $('.play').click(function(){
         play = true;
         draw();
+        loop();
     })
     database.on("child_added", function (rowData) {
         var row = rowData.val();
@@ -125,6 +126,9 @@ function draw(){
     if(play === true){
         pong()
     }else{
-        image(img, 250, 250)
+        fill(0)
+        rect(250,250,100,70,20)
+        fill(255)
+        triangle(275,275,275,325,325,250)
     }
 }
