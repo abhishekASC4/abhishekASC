@@ -52,22 +52,22 @@
     position: absolute;
     top: 1vh;
     height:100%;
-    left: 4.3vh;
+    left: 2.4vw;
     width: 85%;
     opacity: 0;
 }
 .pong:hover .overlay1{
     color:black;
     opacity: 1;
-    transition: .3s ease;
+     transition: .3s ease; 
 }
 .overlay2{
     background: rgba(255,255,255,.8);
     position: absolute;
     top: 1vh;
     height:100%;
-    left: 4.3vh;
-    width: 32vh;
+    left: 18.5%;
+    width: 17.7vw;
     opacity: 0;
 }
 .battle:hover .overlay2{

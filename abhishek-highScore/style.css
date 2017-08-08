@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-family: bold;
+    color:black;
+
+}
+body{
+    background: url("https://cdn.dribbble.com/users/14356/screenshots/2406950/hands.gif");
+    background-size: 100%;
+}
+
+.container{
+    padding: 34px;
+}
+.playAgain{
+    padding: 0 auto;
+    color:white;
+    background: black;
+}
+button{
+    color:black;
+    background-color: white;
+}
+.win{
+    
+   font-size: 25px;
+    font-family: bold;
+}

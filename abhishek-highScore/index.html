@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>High Score</title>
+    <!--Go to https://console.firebase.google.com-->
+    <!--Sign in and add a project "fireMessage"-->
+    <!--PASTE SNIPPET HERE-->
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAnobzlGpNTWRPjGxVbK4RYKfhIHX1lW1U",
+            authDomain: "rockpaperscissors-a8a38.firebaseapp.com",
+            databaseURL: "https://rockpaperscissors-a8a38.firebaseio.com",
+            projectId: "rockpaperscissors-a8a38",
+            storageBucket: "",
+            messagingSenderId: "815518607644"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="main.js"></script>
+</head>
+<body>
+    `<div class="container">
+        <div class="row">
+            <div class="col-md-3 leaderboard">
+                <input type="text" class="form-control user"placeholder='user name'>
+                <button class='submit'>Submit</button>
+            </div><!-- end left column -->
+            <div class="col-md-6">
+                <div class="col-md-4">
+                    <button class= 'rock btn-lg'>rock</button>
+                </div><!-- end rock column -->
+                <div class="col-md-4">
+                    <button class = 'paper btn-lg'>paper</button>
+                </div><!-- end paper column -->
+                <div class="col-md-4">
+                    <button class='scissors btn-lg'>scissors</button>
+                </div><!-- end scissors column -->
+            </div><!-- end middle column -->
+            <div class="col-md-3">
+                <div class="leaderboards">
+                </div>
+            </div><!-- end right column -->
+        </div><!-- end input row -->
+        <div class="row">
+            <div class="col-md-3"></div><!-- end empty left -->
+            <div class="col-md-6">
+                <div class="col-md-4"></div><!-- end left column -->
+                <div class="col-md-4 answer"></div><!-- end middle answer column -->
+                <div class="col-md-4"></div><!-- end right column -->
+            </div><!-- end answer -->
+            <div class="col-md-3"></div><!-- end empty right -->
+        </div><!-- end answer row -->
+        <div class="row">
+            <div class="col-md-6"></div><!-- end column -->
+            <div class="col-md-6">
+                <button class="update">Submit your score!</button>
+            </div><!-- end column -->
+        </div><!-- end leaderbard row -->
+    </div><!-- end container -->
+    <p class='check' style='display: none'>true</p>
+    <p class ='point' style='display:none'>0</p>
+</body>
+</html>

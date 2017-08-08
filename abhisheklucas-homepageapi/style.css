@@ -1,0 +1,28 @@
+*{
+    font-size: 15px;
+    color: white;
+}
+body{
+    background: url("https://tctechcrunch2011.files.wordpress.com/2015/10/shutterstock_112249904.jpg");
+    background-size: cover;
+}
+.jumbotron{
+    background: rgba(0,0,0,.1);
+    color: white;
+}
+.button{
+    background: rgba(0,0,0,.2);
+    border: 0;
+}
+.btn{
+    background: rgba(0,0,0,.2);
+    border: 0;
+    color: white;
+}
+.form-control{
+    background: inherit;
+    color: white;
+}
+.form-control::placeholder{
+    color: white;
+}

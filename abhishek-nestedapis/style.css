@@ -1,0 +1,17 @@
+.jumbotron{
+    margin-top: 20vh;
+    background: white;
+}
+
+.picture{
+    margin-top: 5vh;
+    width: 25vw;
+    height: 25vh;
+}
+@media (max-width:800px){
+    .picture{
+        width: 25vw;
+        height: 25vh;
+        margin-left: 7vw;
+    }
+}

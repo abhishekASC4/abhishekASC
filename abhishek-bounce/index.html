@@ -4,11 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ping!</title>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBGbhOExw0TEwJgssMKNIEbavGUK55SDMk",
+            authDomain: "pongwebsite-3e293.firebaseapp.com",
+            databaseURL: "https://pongwebsite-3e293.firebaseio.com",
+            projectId: "pongwebsite-3e293",
+            storageBucket: "pongwebsite-3e293.appspot.com",
+            messagingSenderId: "297206209559"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" class="css">
     <script src = "p5.js"></script>
     <script src = "code.js"></script>
 </head>
 <body>
-    
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-md-4"></div><!-- end empty left column -->
+            <div class="col-md-4">
+                <h2>Pong!</h2>
+                <div class="row">
+                    <div class="col-md-8"><input type="text" class="form-control" placeholder="User name"></div>
+                    <div class="col-md-4">
+                        <button class="submit">submit</button>
+                    </div><!-- end submit column -->
+                </div><!-- end username row -->
+                <div class="row">
+                    <button class="play"style='display:none'>Play Now!</button>
+                </div><!-- end play button row -->
+            </div><!-- end middle content column -->
+            <div class="col-md-4"></div><!-- end empty right column -->
+        </div><!-- end container -->
+    </div><!-- end jumbotron -->
+    <div class=" game container">
+        <div class="col-md-6">
+        </div><!-- end empty column (game is placed over this one) -->
+        <div class="col-md-6 leaderboard">
+            <h1>Leaderboard:</h1>
+        </div><!-- end leaderboard column -->
+    </div><!-- end game container -->
 </body>
 </html>

@@ -16,8 +16,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="style.css" class="css"> 
     <script src="code.js"></script>
+    <script>
+    function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        if(h>12){
+            document.getElementById('txt').innerHTML = (h-12) + ":" + m + ":" + s + " PM";
+        }else{
+            document.getElementById('txt').innerHTML = h + ":" + m + ":" + s + " AM";
+        }
+        var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+    }
+    
+</script>
 </head>
-<body>
+<body onload="startTime()">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -30,15 +51,19 @@
                     Insert greeting based on time and temperature
                 </div>
                 <div class="jumbotron weather"style="margin-top: 25vh;">
-                    Insert image based on current weather
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Please Enter Your Zip Code</label>
+                        <input  class="form-control" placeholder="Zip Code">
+                        <input class="btn submit btn-default" type="submit" value="Submit">
+                    </div>
                 </div>
             </div>
             <div class="col-md-3" style="padding:2%;">
                 <div class="jumbotron time" style="margin-top: 20vh;">
-                    <button>time(placeholder)</button>
+                    <div id="txt"></div>
                 </div>
                 <div class="jumbotron temp"style="margin-top: 20vh;">
-                    <button>temp carousel (placeholder)</button>
+                    <button class="button">temp carousel (placeholder)</button>
                 </div>
             </div>
         </div>

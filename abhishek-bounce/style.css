@@ -1,0 +1,17 @@
+.jumbotron{
+    height: 5vh;
+}
+.container{
+    height: 5vh;
+}
+h2{
+    margin-top: -5vh;
+}
+.game{
+    height: 5vh;
+}
+#defaultCanvas0{
+    position: absolute;
+     margin-left: -155vh; 
+     margin-top: -5vh;  
+}

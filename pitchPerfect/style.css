@@ -1,0 +1,53 @@
+.jumbotron{
+    margin-top: 20vh;
+}
+.col-md-6{
+    margin-top: 5vh;
+}
+.btn{
+    background: rgba(0,0,255,.7);
+    color: white;   
+    border: 0;
+}
+.btn:hover{
+    background: rgba(0,0,255,1);
+    color: white;
+    border: 0;
+}
+.jumbotron h1{
+    color: rgba(0,0,255,.7);
+}
+*{
+    font-family: Montserrat, sans-serif;
+}
+body{
+    height:100vh;
+    background: url("traffic.jpg") no-repeat;
+    background-size: cover;
+}
+.jumbotron{
+    background-color: rgba(255,255,255,.5);
+}
+.navbar{
+    background: rgba(255,255,255,.2);
+    text-align:center;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:white;
+}
+.img-circle{
+    height:200px;
+    width:200px;
+}
+.signout{
+    color: black;
+}
+.container{
+    display: none;
+}
+.signOut{
+    display: none;
+}

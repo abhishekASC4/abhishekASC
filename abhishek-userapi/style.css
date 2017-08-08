@@ -1,0 +1,15 @@
+.jumbotron{
+    margin-top: 20vh;
+    height: 24vh;
+    width: 70vh;
+}
+.profile{
+    border-radius: 20px;
+}
+.jumbotron{
+    background: rgba(0,0,0,.2);
+    color: white;
+}
+.col-md-6{
+    margin-top: -2vh;
+}
