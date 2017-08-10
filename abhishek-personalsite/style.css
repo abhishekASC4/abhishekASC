@@ -67,10 +67,24 @@
     top: 1vh;
     height:100%;
     left: 18.5%;
-    width: 17.7vw;
+    width: 123.5%;
     opacity: 0;
 }
 .battle:hover .overlay2{
+    color:black;
+    opacity: 1;
+    transition: .3s ease;
+}
+.overlay3{
+    background: rgba(255,255,255,.8);
+    position: absolute;
+    top: 1vh;
+    height:100%;
+    left: 18.5%;
+    width: 77%; 
+    opacity: 0;
+}
+.space:hover .overlay3{
     color:black;
     opacity: 1;
     transition: .3s ease;
