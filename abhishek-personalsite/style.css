@@ -4,12 +4,12 @@
 .name{
     height: 10vh;
 }
-.hov{
+ .hov{
     padding: 10px;
     margin: 0 10px 0 10px;
     border: 2px white solid;
     border-radius: 50px;
-}
+} 
 .profile{
     border-radius: 5px;
 }
@@ -85,6 +85,20 @@
     opacity: 0;
 }
 .space:hover .overlay3{
+    color:black;
+    opacity: 1;
+    transition: .3s ease;
+}
+.overlay4{
+    background: rgba(255,255,255,.8);
+    position: absolute;
+    top: 1vh;
+    height:100%;
+    left: 18.5%;
+    width: 123.5%; 
+    opacity: 0;
+}
+.rps:hover .overlay4{
     color:black;
     opacity: 1;
     transition: .3s ease;
