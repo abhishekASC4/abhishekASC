@@ -1,4 +1,4 @@
-var level = 9
+var level = 24
 if (level % 2 == 0){
     console.log("You're on an even level");
 } else{
